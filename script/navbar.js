@@ -5,4 +5,5 @@ document.getElementById("theme-toggole").addEventListener('click', function(){
     
     const bgColor = "rgb(" +r+" , "+g+" , "+b+")"
     document.body.style.background = bgColor; 
+    document.getElementById("task-bar").style.borderColor = bgColor; 
 })
