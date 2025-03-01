@@ -7,6 +7,7 @@ module.exports = {
                 clifford: '#da373d',
                 bgColor: '#F4F7FF',
                 textColor: '#00303C',
+                btnBg: '#3752FD', 
             }
         },
         fontFamily: {

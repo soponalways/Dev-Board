@@ -19,6 +19,7 @@
                         bgColor: '#F4F7FF',
                         textColor: '#00303C',
                         // textColor: '#CB2E81',
+                        btnBg: '#3752FD', 
                     }
                 },
                 fontFamily: {
@@ -51,7 +52,7 @@
         </nav>
     </header>
     <main class="grid grid-cols-4 gap-4 md:gap-5 lg:gap-6 max-w-screen-2xl mx-auto mt-11">
-        <section class="col-span-3 bg-white px-6 rounded-2xl">
+        <section class="col-span-3 bg-white px-6 rounded-2xl mb-10">
             <section id="task-bar" class="grid grid-cols-12 gap-6 py-6 border-dashed border-bgColor border-b-4">
                 <!-- Card 1 -->
                 <div class="col-span-3 py-6 px-7 bg-bgColor rounded-xl flex gap-5 items-center">
@@ -72,9 +73,107 @@
                     <h2 id="task-bar-date" class="text-2xl text-textColor"><span>Wed ,</span><br><span class="font-bold">Jul 28 2025</span></h2>
                   </div>
             </section>
+            <!-- Card Section  -->
+             <section class="grid grid-cols-3 gap-9 my-8">
+                <!-- Card 1  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">ShopEase</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Fix Mobile Button Issue</h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 2  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">CloudSync</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Add Dark Mode</h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 3  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">SwiftPay</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Optimize Home page </h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 4  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">Meta</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Add new emoji 🤲</h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 5  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">Google LLC</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Integrate OpenAI API</h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+                <!-- Card 6  -->
+                <div class="bg-bgColor p-6 space-y-4 rounded-2xl">
+                    <div class="space-y-4">
+                        <h3 class="rounded-lg py-2 px-4 bg-white text-textColor w-fit">Glassdoor</h3>
+                        <h2 class="text-2xl text-textColor font-medium">Improve Job searching</h2>
+                        <p class="h-24 bg-white text-black/50 rounded-lg p-4 overflow-hidden">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                    </div>
+                    <div class=" pt-4 border-t-2 border-dashed border-black/50 grid grid-cols-2 justify-between">
+                        <div>
+                            <p class="text-textColor/70 text-sm">Deadline</p>
+                            <p class="text-textColor font-medium">21 March 2025</p>
+                        </div>
+                        <button class="btn bg-btnBg hover:bg-btnBg/50 font-medium text-white">Completed</button>
+                    </div>
+                </div>
+             </section>
         </section>
         <!-- This is Activity log bar -->
-        <section class="bg-red-400">some text on activity bar</section>
+        <section class="bg-bgColor">some text on activity bar</section>
     </main>
 
     <script src="./script/navbar.js"></script>
