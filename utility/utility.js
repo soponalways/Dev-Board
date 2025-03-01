@@ -22,3 +22,7 @@ function getTime() {
     hour = hour % 12 || 12;
     return `${hour}:${minute}:${second} ${amOrPm}`
 };
+
+function setInnerTextById(id, value){
+    document.getElementById(id).innerText = value
+}
