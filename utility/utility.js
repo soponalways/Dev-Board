@@ -23,6 +23,7 @@ function getTime() {
     return `${hour}:${minute}:${second} ${amOrPm}`
 };
 
-function setInnerTextById(id, value){
+function setInnerTextById(id, value) {
     document.getElementById(id).innerText = value
-}
+};
+

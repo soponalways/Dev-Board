@@ -1,7 +1,8 @@
 const dateElement = document.getElementById("task-bar-date"); 
 
 const d = new Date(); 
-const dayDate = d.getDate(); 
+let dayDate = d.getDate(); 
+dayDate = dayDate.toString().padStart(2, "0")
 const months = [
     "Jan", "Feb", "March", "April", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ]
