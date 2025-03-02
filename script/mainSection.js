@@ -12,11 +12,11 @@ document.getElementById("task-complete-btn1").addEventListener('click', function
     const sum = completedTask + 1; 
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
-
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
+    
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
@@ -42,10 +42,10 @@ document.getElementById("task-complete-btn2").addEventListener('click', function
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
 
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
@@ -71,10 +71,10 @@ document.getElementById("task-complete-btn3").addEventListener('click', function
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
 
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
@@ -100,10 +100,10 @@ document.getElementById("task-complete-btn4").addEventListener('click', function
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
 
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
@@ -129,10 +129,10 @@ document.getElementById("task-complete-btn5").addEventListener('click', function
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
 
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
@@ -158,10 +158,10 @@ document.getElementById("task-complete-btn6").addEventListener('click', function
     setInnerTextById("assigned-task", substriction);
     setInnerTextById("completed-task", sum);  
 
-    if(assignedTask === 1){
-        alert("All Task complete")
-    };
     alert("Board Upadated Succesfull");
+    if(assignedTask === 1){
+        alert("congrates!!! you have complte all the current task")
+    };
     // Create Activity Log
     const title = e.target.parentNode.parentNode.children[0].children[1].innerText;
     const time = getTime();
